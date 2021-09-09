@@ -62,13 +62,17 @@ List of libraries used in the notebook are listed below.
 3. Exploratory Data Analysis and Review Score Analysis
    In this step we see the distribution of the numerical data of the master dataset. It is concluded that the numerical data is not normally distributed and have a lot of outliers.
    We also do the review score analysis and obtained the features that affect the review score as shown below.
-    <ul>
-    <li>Order Status (undelivered orders tend to lower the review score)</li>
-    <li>Geographical Location (northern customers tend to rate the orders with a lower review score)</li>
-    <li>Freight Price (higher freight price tend to be rated lower)</li>
-    <li>Delivery Difference (lower delivery difference tend to be rated lower as well)</li>
-    <li>Order Processing Time (higher order processing time tend to lower the review score)</li>
-    </ul>
+   * Order Status (undelivered orders tend to lower the review score)
+	![order_status](order_status.jpg)
+   * Geographical Location (northern customers tend to rate the orders with a lower review score)
+	![map](map.jpg)
+   * Freight Price (higher freight price tend to be rated lower)
+	![freight](freight.jpg)
+   * Delivery Difference (lower delivery difference tend to be rated lower as well)
+	![delivery_difference](delivery_difference.jpg)
+   * Order Processing Time (higher order processing time tend to lower the review score)
+	![order_process](order_process.jpg)
+    
   
 4. Preprocessing
    In the preprocessing step, we drop categorical features since most of the categorical features is irrelevant to the customer segmentation and we drop some numerical features
@@ -80,8 +84,12 @@ List of libraries used in the notebook are listed below.
    were used for the next process since these 2 principle components is enough to describe the data (66 % explained variance). 
    
    For the next step, we perform Elbow Method and Silhouette Score to choose the optimal number of clusters for the KMeans models. The optimal number of clusters obtained is 3.
-   Then, KMeans Clustering is performed and the resulting labels is assigned back to the original dataset. In conclusions, there are 3 types of customer that were using
-   the Olist Store which are:
+   Then, KMeans Clustering is performed and the resulting labels is assigned back to the original dataset.
+   
+   
+   ![principal](principal.jpg)
+   
+   In conclusions, there are 3 types of customer that were using the Olist Store which are:
    * Cheap Product Buyers: customers that tend to buy cheap products
    * Heavy Product Buyers: customers that tend to buy large and heavy products
    * Expensive Product Buyers: customer that tend to buy expensive products
