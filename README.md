@@ -38,7 +38,7 @@ Based on the background, we can conclude 2 problem statement as shown below.
 	
 ## Technology
 ### Language
-This project is created using Python 3.8.5
+This project is created using Python 3.8.5 programming language.
 
 ### Libraries Used
 List of libraries used in the notebook are listed below.
