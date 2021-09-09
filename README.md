@@ -27,8 +27,7 @@ This project is about review score analysis and customer segmentation of Olist S
 
 ### Background
 The main objective of an e-commerce is to increase revenue. One of the most cruical aspects in increasing revenue is the review score.
-A good review score could attract new customers because it describes the quality of the store's service. It could also be a feedback for the company
-in order to increase their service's quality. Hence, in this notebook we are trying to see what kind of properties that affect the review score given by the customers.
+Review score is not only have the power to influence consumer decisions but can strengthen a company’s credibility. Review score have the power to gain customer trust, and they encourage people to interact with the company. Customer interaction ultimately leads to improved profits for businesses [[source](https://medium.com/revain/why-are-customer-reviews-so-important-185b915d4e5d)]. Hence, in this notebook we are trying to see what kind of properties that affect the review score given by the customers.
 As an addition, we would also like to see what type of customer are using the Olist Store in order to create a more targetted strategy to the customers.
 
 ### Problem Statement
