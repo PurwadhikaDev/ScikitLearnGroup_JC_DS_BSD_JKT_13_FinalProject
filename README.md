@@ -1,4 +1,8 @@
 # Olist Store Review Score Analysis and Customer Segmentation
+Contributor:
+* Brian Giovanni (brian.giovanni2807@gmail.com)
+* Rizqi Irfan Nawwaf (R.irfannawwaf@gmail.com)
+
 
 ![Olist_logo](Images/olist_logo.png)
 
