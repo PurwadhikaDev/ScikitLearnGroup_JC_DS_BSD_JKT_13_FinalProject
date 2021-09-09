@@ -1,6 +1,6 @@
 # Olist Store Review Score Analysis and Customer Segmentation
 
-![Olist_logo](olist_logo.png)
+![Olist_logo](Images/olist_logo.png)
 
 This notebook is about the review score analysis and customer segmentation of Olist Store (Brazilian e-commerce). The dataset itself is provided through Kaggle and can be viewed using this
 [link](https://www.kaggle.com/olistbr/brazilian-ecommerce?datasetId=55151&sortBy=voteCount).
@@ -57,21 +57,21 @@ List of libraries used in the notebook are listed below.
    In this step, we merge the 9 datasets into a single master dataset called df_merged. The data scheme for the merging process is shown below. In this stage we also do some feature engineering 
    to simplify some features in the dataset.
   
-   <img src=data_scheme.png>
+   <img src=Images/data_scheme.png>
   
 3. Exploratory Data Analysis and Review Score Analysis
    In this step we see the distribution of the numerical data of the master dataset. It is concluded that the numerical data is not normally distributed and have a lot of outliers.
    We also do the review score analysis and obtained the features that affect the review score as shown below.
    * Order Status (undelivered orders tend to lower the review score)
-	![order_status](order_status.jpg)
+	![order_status](Images/order_status.jpg)
    * Geographical Location (northern customers tend to rate the orders with a lower review score)
-	![map](map.jpg)
+	![map](Images/map.jpg)
    * Freight Price (higher freight price tend to be rated lower)
-	![freight](freight.jpg)
+	![freight](Images/freight.jpg)
    * Delivery Difference (lower delivery difference tend to be rated lower as well)
-	![delivery_difference](delivery_difference.jpg)
+	![delivery_difference](Images/delivery_difference.jpg)
    * Order Processing Time (higher order processing time tend to lower the review score)
-	![order_process](order_process.jpg)
+	![order_process](Images/order_process.jpg)
     
   
 4. Preprocessing
@@ -87,7 +87,7 @@ List of libraries used in the notebook are listed below.
    Then, KMeans Clustering is performed and the resulting labels is assigned back to the original dataset.
    
    
-   ![principal](principal.jpg)
+   ![principal](Images/principal.jpg)
    
    In conclusions, there are 3 types of customer that were using the Olist Store which are:
    * Cheap Product Buyers: customers that tend to buy cheap products
