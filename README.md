@@ -20,6 +20,7 @@ There are some features that can't be displayed in the github viewer (folium Map
 * [Conclusions and Recommendations](#conclusions-and-recommendations)
   * [What Makes A Low or High Review Score](#what-makes-a-low-or-high-review-score)
   * [Customer Segmentation](#customer-segmentation)
+* [External Links and References](#external-links-and-references)
 
 ## Introduction
 This project is about review score analysis and customer segmentation of Olist Store which is used in Brazil.
@@ -140,3 +141,9 @@ Some solutions and recommendations that can be considered for each type of custo
     - Colaborate with local or international banks to provide zero interest installment
     - Give a certain discount or promo when the purchase price exceeded certain value
 
+## External Links and References
+
+* https://www.kaggle.com/olistbr/brazilian-ecommerce?datasetId=55151&sortBy=voteCount
+* https://www.kaggle.com/thiagobodruk/brazil-geojson
+* https://www.helpscout.com/blog/cheap-customers/
+* https://blog.hubspot.com/service/customer-retention-rate
