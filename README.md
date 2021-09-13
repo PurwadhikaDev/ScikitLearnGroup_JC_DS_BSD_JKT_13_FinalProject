@@ -56,14 +56,17 @@ List of libraries used in the notebook are listed below.
 ## Work Steps
 
 1. Import Libraries and Datasets
+
    First, we imported the libraries needed through the notebook and also the dataset. There are 9 datasets imported, so a merging of a dataframe is needed to simplify the data processing step.
 2. Merge Datasets
+
    In this step, we merge the 9 datasets into a single master dataset called df_merged. The data scheme for the merging process is shown below. In this stage we also do some feature engineering 
    to simplify some features in the dataset.
   
    <img src=Images/data_scheme.png>
   
 3. Exploratory Data Analysis and Review Score Analysis
+
    In this step we see the distribution of the numerical data of the master dataset. It is concluded that the numerical data is not normally distributed and have a lot of outliers.
    We also do the review score analysis and obtained the features that affect the review score as shown below.
    * Order Status (undelivered orders tend to lower the review score)
@@ -79,11 +82,13 @@ List of libraries used in the notebook are listed below.
     
   
 4. Preprocessing
+
    In the preprocessing step, we drop categorical features since most of the categorical features is irrelevant to the customer segmentation and we drop some numerical features
    that irrelevant as well. After the features is dropped, we impute the missing values inside the dataset with the median of each features since the numerical features is not
    normally distributed. At the end of this step, we scale the dataset using the RobustScaler to minimize the influence of the outliers.
    
 5. Unsupervised Machine Learning
+
    In this step, we perform PCA to reduce the dimensionality of the data in order to minimize the space and time needed for the process. There are 2 principal components that
    were used for the next process since these 2 principle components is enough to describe the data (66 % explained variance). 
    
