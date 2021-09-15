@@ -32,7 +32,10 @@ This project is about review score analysis and customer segmentation of Olist S
 ### Background
 The main objective of an e-commerce is to increase revenue. One of the most cruical aspects in increasing revenue is the review score.
 Review score is not only have the power to influence consumer decisions but can strengthen a company’s credibility. Review score have the power to gain customer trust, and they encourage people to interact with the company. Customer interaction ultimately leads to improved profits for businesses [[source](https://medium.com/revain/why-are-customer-reviews-so-important-185b915d4e5d)]. Hence, in this notebook we are trying to see what kind of properties that affect the review score given by the customers.
-As an addition, we would also like to see what type of customer are using the Olist Store in order to create a more targetted strategy to the customers.
+
+Furthermore, to increase sales revenue, applying targeted marketing is also important, since it can enhance advertising strategy and help build customer loyality 
+[[source](https://www.mbaskool.com/business-concepts/marketing-and-strategy-terms/11517-targeting-strategy.html)].
+Thus, as an addition we would also like to see what type of customer are using the Olist Store in order to create a more targetted strategy to the customers.
 
 ### Problem Statement
 Based on the background, we can conclude 2 problem statement as shown below.
@@ -161,5 +164,7 @@ Some solutions and recommendations that can be considered for each type of custo
 
 * https://www.kaggle.com/olistbr/brazilian-ecommerce?datasetId=55151&sortBy=voteCount
 * https://www.kaggle.com/thiagobodruk/brazil-geojson
+* https://medium.com/revain/why-are-customer-reviews-so-important-185b915d4e5d
+* https://www.mbaskool.com/business-concepts/marketing-and-strategy-terms/11517-targeting-strategy.html
 * https://www.helpscout.com/blog/cheap-customers/
 * https://blog.hubspot.com/service/customer-retention-rate
