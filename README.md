@@ -31,10 +31,9 @@ This project is about review score analysis and customer segmentation of Olist S
 
 ### Background
 The main objective of an e-commerce is to increase revenue. One of the most cruical aspects in increasing revenue is the review score.
-Review score is not only have the power to influence consumer decisions but can strengthen a company’s credibility. Review score have the power to gain customer trust, and they encourage people to interact with the company. Customer interaction ultimately leads to improved profits for businesses [[source](https://medium.com/revain/why-are-customer-reviews-so-important-185b915d4e5d)]. Hence, in this notebook we are trying to see what kind of properties that affect the review score given by the customers.
+Review score is not only have the power to influence consumer decisions but can strengthen a company’s credibility. Review score have the power to gain customer trust, and they encourage people to interact with the company. Customer interaction ultimately leads to improved profits for businesses [1]. Hence, in this notebook we are trying to see what kind of properties that affect the review score given by the customers.
 
-Furthermore, to increase sales revenue, applying targeted marketing is also important, since it can enhance advertising strategy and help build customer loyality 
-[[source](https://www.mbaskool.com/business-concepts/marketing-and-strategy-terms/11517-targeting-strategy.html)].
+Furthermore, to increase sales revenue, applying targeted advertising is also important, since it can enhance advertising strategy and help build customer loyality [2]. Based on the research by European Parlimentary Research Service [3], targeted ads have 5.3 times higher click through rate than mass advertising. Another study by Shepherd S [4] suggest that targeted ads could potentialy increase sales up to 10% [4].
 Thus, as an addition we would also like to see what type of customer are using the Olist Store in order to create a more targetted strategy to the customers.
 
 ### Problem Statement
@@ -136,7 +135,7 @@ Some solutions and recommendations that can be considered for each type of custo
         - sports and leisure
         - furnitures and decorations
         - computers accessories
-    - Bundle products to reduce recurring pain points
+    - Bundle products to reduce recurring pain points [6]
 
 
 * For Heavy Product Buyers:
@@ -161,10 +160,17 @@ Some solutions and recommendations that can be considered for each type of custo
     - Give a certain discount or promo when the purchase price exceeded certain value
 
 ## External Links and References
-
+Data Source:
 * https://www.kaggle.com/olistbr/brazilian-ecommerce?datasetId=55151&sortBy=voteCount
+
+Brazil GeoJson Source:
 * https://www.kaggle.com/thiagobodruk/brazil-geojson
-* https://medium.com/revain/why-are-customer-reviews-so-important-185b915d4e5d
-* https://www.mbaskool.com/business-concepts/marketing-and-strategy-terms/11517-targeting-strategy.html
-* https://www.helpscout.com/blog/cheap-customers/
-* https://blog.hubspot.com/service/customer-retention-rate
+
+References:
+[1] https://medium.com/revain/why-are-customer-reviews-so-important-185b915d4e5d
+[2] https://www.mbaskool.com/business-concepts/marketing-and-strategy-terms/11517-targeting-strategy.html
+[3] European Parliamentary Research Service, 2020, Digital Service Act: European Added Value Assessment
+[4] Shepherd S. (2020). The Powerful Potential of Personalisation in Digital Marketing
+[5] https://blog.hubspot.com/service/customer-retention-rate
+[6] https://www.helpscout.com/blog/cheap-customers/
+
