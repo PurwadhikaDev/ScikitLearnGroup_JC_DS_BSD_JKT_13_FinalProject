@@ -33,7 +33,7 @@ This project is about review score analysis and customer segmentation of Olist S
 The main objective of an e-commerce is to increase revenue. One of the most cruical aspects in increasing revenue is the review score.
 Review score is not only have the power to influence consumer decisions but can strengthen a company’s credibility. Review score have the power to gain customer trust, and they encourage people to interact with the company. Customer interaction ultimately leads to improved profits for businesses [1]. Hence, in this notebook we are trying to see what kind of properties that affect the review score given by the customers.
 
-Furthermore, to increase sales revenue, applying targeted advertising is also important, since it can enhance advertising strategy and help build customer loyality [2]. Based on the research by European Parlimentary Research Service [3], targeted ads have 5.3 times higher click through rate than mass advertising. Another study by Shepherd S [4] suggest that targeted ads could potentialy increase sales up to 10% [4].
+Furthermore, to increase sales revenue, applying targeted advertising is also important, since it can enhance advertising strategy and help build customer loyality [2]. Based on the research by European Parlimentary Research Service, targeted ads have 5.3 times higher click through rate than mass advertising [3]. Another study by Shepherd S suggest that targeted ads could potentialy increase sales up to 10% [4].
 Thus, as an addition we would also like to see what type of customer are using the Olist Store in order to create a more targetted strategy to the customers.
 
 ### Problem Statement
