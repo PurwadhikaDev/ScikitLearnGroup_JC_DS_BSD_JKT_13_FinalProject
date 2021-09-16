@@ -31,9 +31,9 @@ This project is about review score analysis and customer segmentation of Olist S
 
 ### Background
 The main objective of an e-commerce is to increase revenue. One of the most cruical aspects in increasing revenue is the review score.
-Review score is not only have the power to influence consumer decisions but can strengthen a company’s credibility. Review score have the power to gain customer trust, and they encourage people to interact with the company. Customer interaction ultimately leads to improved profits for businesses [1]. Hence, in this notebook we are trying to see what kind of properties that affect the review score given by the customers.
+Review score is not only have the power to influence consumer decisions but can strengthen a company’s credibility. Review score have the power to gain customer trust, and they encourage people to interact with the company. Customer interaction ultimately leads to improved profits for businesses <sup>[1]</sup>. Hence, in this notebook we are trying to see what kind of properties that affect the review score given by the customers.
 
-Furthermore, to increase sales revenue, applying targeted advertising is also important, since it can enhance advertising strategy and help build customer loyality [2]. Based on the research by European Parlimentary Research Service, targeted ads have 5.3 times higher click through rate than mass advertising [3]. Another study by Shepherd S suggest that targeted ads could potentialy increase sales up to 10% [4].
+Furthermore, to increase sales revenue, applying targeted advertising is also important, since it can enhance advertising strategy and help build customer loyality <sup>[2]</sup>. Based on the research by European Parlimentary Research Service, targeted ads have 5.3 times higher click through rate than mass advertising <sup>[3]</sup>. Another study by Shepherd S suggest that targeted ads could potentialy increase sales up to 10% <sup>[4]</sup>.
 Thus, as an addition we would also like to see what type of customer are using the Olist Store in order to create a more targetted strategy to the customers.
 
 ### Problem Statement
@@ -82,6 +82,12 @@ List of libraries used in the notebook are listed below.
    * Order Processing Time (higher order processing time tend to lower the review score)
 	![order_process](Images/order_process.jpg)
     
+    As an addition, we also see a very low customer retention rate from the data. Thus, some recommendations that can be considered are <sup>[5]</sup>:
+    * Create an event or promo for a returning customers
+    * Create loyalty program forcustomers
+    * Create a personalized buying experience
+    * Send promotions to the customers via email (monthly)
+    * Give a great promo for the customer on their birthday
   
 4. Preprocessing
 
@@ -135,7 +141,7 @@ Some solutions and recommendations that can be considered for each type of custo
         - sports and leisure
         - furnitures and decorations
         - computers accessories
-    - Bundle products to reduce recurring pain points [6]
+    - Bundle products to reduce recurring pain points <sup>[6]</sup>
 
 
 * For Heavy Product Buyers:
@@ -167,10 +173,10 @@ Brazil GeoJson Source:
 * https://www.kaggle.com/thiagobodruk/brazil-geojson
 
 References:
-[1] https://medium.com/revain/why-are-customer-reviews-so-important-185b915d4e5d
-[2] https://www.mbaskool.com/business-concepts/marketing-and-strategy-terms/11517-targeting-strategy.html
-[3] European Parliamentary Research Service, 2020, Digital Service Act: European Added Value Assessment
-[4] Shepherd S. (2020). The Powerful Potential of Personalisation in Digital Marketing
-[5] https://blog.hubspot.com/service/customer-retention-rate
-[6] https://www.helpscout.com/blog/cheap-customers/
+* <sup>[1]</sup> https://medium.com/revain/why-are-customer-reviews-so-important-185b915d4e5d
+* <sup>[2]</sup> https://www.mbaskool.com/business-concepts/marketing-and-strategy-terms/11517-targeting-strategy.html
+* <sup>[3]</sup> European Parliamentary Research Service, 2020, Digital Service Act: European Added Value Assessment
+* <sup>[4]</sup> Shepherd S. (2020). The Powerful Potential of Personalisation in Digital Marketing
+* <sup>[5]</sup> https://blog.hubspot.com/service/customer-retention-rate
+* <sup>[6]</sup> https://www.helpscout.com/blog/cheap-customers/
 
